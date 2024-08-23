@@ -1,0 +1,44 @@
+.cart-items{
+    margin: 3rem auto;
+    padding: 1rem 7rem;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th , td{
+    padding: 1rem 0.5rem;
+    max-width: 250px;
+    border-bottom: 1px solid black;
+    min-width: 50px;
+    text-align: center;
+}
+td img{
+    max-width: 100px;
+    
+}
+
+.cart-total {
+    margin: 3rem auto;
+    padding: 1rem 7rem;
+    width: 50%;
+    display: flex;
+   flex-direction: column;
+}
+
+.cart-total div{
+display: flex;
+justify-content: space-between;
+margin: 1rem;
+}
+
+.cart-total input{
+    width: 30%;
+    height: 40px;
+    margin: auto;
+    background-color: rgba(255, 0, 0, 0.819);
+    color: white;
+    border: none;
+    border-radius: 0.7rem;
+    cursor: pointer;
+}

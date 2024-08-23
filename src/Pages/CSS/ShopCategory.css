@@ -1,0 +1,33 @@
+.shop-category-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop-category-banner img{
+    width: 80%;
+
+
+}
+
+.shop-category-items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem 3rem;
+
+}
+
+.shop-category-explore-btn{
+    background-color: grey;
+    color: white;
+    padding: 1.3rem 2.6rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    border: none;
+    display: block;
+    margin: 1rem auto;
+    transition: 0.3s ease;
+}
+.shop-category-explore-btn:hover{
+    background-color: rgba(128, 128, 128, 0.833);
+}

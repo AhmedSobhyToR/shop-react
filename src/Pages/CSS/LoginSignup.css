@@ -1,0 +1,87 @@
+.loginsignup{
+
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+   background-attachment: fixed;
+}
+.loginForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-direction: column;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    text-align: center;
+    /* padding: 4rem 10rem; */
+    border: 1px solid grey;
+    width: 600px;
+    margin-left: auto;
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+
+.loginForm .login-header, .login-confirm, .login-details, .login-remember{
+    width: 350px;
+}
+.login-header h3{
+    color: white;
+    font-size: 2rem;
+ 
+
+}
+.login-header p{
+    font-size: 0.8rem;
+    color: white;
+    margin: 0.5rem 0;
+}
+
+.login-details label{
+    display: flex;
+    margin-left: auto;
+    color: white;
+    
+}
+.login-details input{
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-bottom: 1px solid rgba(175, 175, 175, 0.556);
+    padding: 0.5rem 0.1rem;
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+.login-remember{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+.login-remember span{
+    color: white;    
+}
+.login-remember p, .login-remember input    {
+    cursor: pointer;
+    color: white;
+}
+
+.login-confirm{
+       margin: 4rem 0; 
+}
+.login-confirm input{
+    padding: 0.7rem 6rem;
+    background-color:rgba(175, 175, 175, 0.556);    
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.7rem;
+    margin-bottom: 1.5rem;
+}
+.login-confirm p{
+    font-size: 0.8rem;
+    color: white;
+}
+.login-confirm p span{
+    color: white;
+    cursor: pointer;
+}

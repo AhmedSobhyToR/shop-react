@@ -1,0 +1,19 @@
+
+.product-Description-Header input, .product-Description-Body{
+    background-color: rgba(238, 238, 238, 0.441);
+}
+
+.product-Description-Header input{
+    width: 7rem;
+    height: 3rem;
+    cursor: pointer;
+    border: 0.5px solid rgba(0, 0, 0, 0.315);
+    font-weight: bold;
+
+}
+
+.product-Description-Body{
+    border: 0.5px solid rgba(0, 0, 0, 0.315);
+    border-radius: 0.7rem;
+    padding: 1.5rem;
+}

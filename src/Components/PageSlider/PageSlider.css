@@ -1,0 +1,8 @@
+.page-slider-btn{
+    width: 40px;
+    height:40px;
+    cursor: pointer;
+    border-radius: 0.7rem;
+    background-color: rgb(167, 167, 167);
+    color: black;
+}

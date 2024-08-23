@@ -1,0 +1,25 @@
+.item{
+    width: 300px;
+    transition: 0.3s ease;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    margin: 1rem;
+}
+.item:hover{
+   transform:  scale(1.05);
+  
+}
+.item img{
+    width: 100%;
+    border-radius: 0.7rem;
+}
+
+.item-price{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item-price p:nth-child(2){
+    text-decoration: line-through;
+    color: rgba(128, 128, 128, 0.71);
+}
