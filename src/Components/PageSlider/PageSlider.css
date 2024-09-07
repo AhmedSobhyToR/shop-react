@@ -1,8 +1,16 @@
 .page-slider-btn{
-    width: 40px;
-    height:40px;
+    width: 60px;
+    height:60px;
     cursor: pointer;
+    border: none;
     border-radius: 0.7rem;
-    background-color: rgb(167, 167, 167);
-    color: black;
+    background-image:  linear-gradient(to right, rgba(145, 145, 145, 0.648) , rgba(21, 23, 88, 0.679) );
+    color: rgb(255, 255, 255);
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.page-slider-btn:hover{
+    color: rgb(224, 222, 222);
 }

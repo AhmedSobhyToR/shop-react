@@ -1,9 +1,24 @@
+.product-related-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.product-related-products h2{
+    color: white;
+   margin: 2rem 0;
+}
 .product-related-products-items{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     flex-direction: row;
+    
 }
+
 .product-related-products-items .item{
     width: 250px;
+  
+  
+    
 }

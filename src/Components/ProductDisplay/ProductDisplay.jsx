@@ -1,5 +1,5 @@
-import React , { useState, useContext }from 'react';
-import emptyStarIcon from '../Assests/star_dull_icon.png'
+import React, { useContext, memo } from 'react'; 
+import emptyStarIcon from '../Assests/star_dull_icon.png';
 import fullStarIcon from '../Assests/star_icon.png'
 import './ProductDisplay.css'
 import {ShopContext} from '../../Context/ShopContext'
@@ -58,7 +58,8 @@ const ProductDisplay = (props) => {
                     </ul>
                 </div>
 
-                <input type="button" value="Add To Cart" onClick = {()=>{addToCart(product.id)}}/>
+                <button onClick={() => addToCart(product.id)}>Add To Cart</button>
+                
                 <div className='product-category'>
                 <p><span>Category: </span>{product.category}</p>
                 </div>
@@ -70,4 +71,4 @@ const ProductDisplay = (props) => {
     );
 }
 
-export default ProductDisplay;
+export default memo(ProductDisplay);

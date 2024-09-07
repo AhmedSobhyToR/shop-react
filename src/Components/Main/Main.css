@@ -1,14 +1,20 @@
 .main-section{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 2rem 3rem;
+    align-items:center;
+    justify-content: end;
+    padding: 3rem;
     min-height: calc(100vh - 70px);
-    background-image: linear-gradient(to right, rgb(204, 204, 204) 30% , rgba(255, 0, 0, 0.679));
+    background-image: url("../Assests/loginbg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     flex-wrap: wrap;
+    color: white;
+    
 
 }
-.main-left {
+.main-right {
+
     font-size: 2rem;
 }
 .header-hand{
@@ -18,52 +24,51 @@
 
 .header-hand img{
     width: 70px;
-    margin-left: 10px;
+    margin-right: 10px;
 }
-.main-left button{
+.main-right button{
     padding: 0.7rem 2.7rem;
-    background-color: rgb(204, 204, 204);
+    background-image:  linear-gradient(to right, rgb(16, 22, 59) 50% , rgba(21, 23, 88, 0.679) );
     border: 1px solid grey;
     border-radius: 50px;
     cursor: pointer;
     transition: 0.8s ease;
-    color: rgba(255, 0, 0, 0.679);
+    color: white;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    gap: 10px;
 }
-.main-left button:hover{
-    background-image:  linear-gradient(to right, rgb(204, 204, 204) 50% , rgba(255, 0, 0, 0.679) );
+.main-right button:hover{
+    background-image:  linear-gradient(to right, rgb(16, 22, 59) 50% , rgba(21, 23, 88, 0.679) );
 }
 
 
-.main-right img{
-    width: 400px;
-}
+
 
 @media(max-width:400px){
 
-    .main-left {
+    .main-right {
         font-size: 1rem;
     }
     .header-hand img{
         width: 40px;
-        margin-left: 5px;
+        margin-right: 5px;
     }
-    .main-right img{
-        width: 300px;
-    }
+
 
 }
 
 @media(max-width:910px){
-    .main-left {
+    .main-right {
         font-size: 1.2rem;
     }
     .header-hand img{
         width: 60px;
-        margin-left: 6px;
+        margin-right: 6px;
     }
-    .main-right img{
-        width: 320px;
-    }
+
 
 }

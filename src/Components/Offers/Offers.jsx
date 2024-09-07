@@ -1,6 +1,6 @@
 import React from 'react';
 import './Offers.css'
-import offers_banned_image from '../Assests/exclusive_image.png'
+import offers_banned_image from '../Assests/offer.jpg'
 const Offers = () => {
     return (
         <div className='offers'>

@@ -25,11 +25,11 @@ const CartItems = () => {
                         subTotal =  subTotal+all_product[i].new_price* cartItems[e.id];
                  
                         return (
-                            <tr>
+                        <tr>
                             <td><img src={all_product[i].image} alt="" /></td>
                             <td> {all_product[i].name}
                             </td>
-                            <td>{all_product[i].new_price}</td>
+                            <td>{all_product[i].new_price}$</td>
                             <td>{cartItems[e.id]}</td>
                             <td>{all_product[i].new_price* cartItems[e.id]}$</td>
                             <td style={{cursor:"pointer"}} onClick={()=>{removeFromCart(e.id)}} >X</td>
@@ -48,7 +48,7 @@ const CartItems = () => {
         <div className='cart-total'>
             <div>
             <h4>SubTotal</h4>
-            <p>{subTotal}</p>
+            <p>{subTotal}$</p>
             </div>
             <hr />
             <div>
@@ -59,7 +59,7 @@ const CartItems = () => {
 
             <div>
                 <h3>Total</h3>
-                <p>{subTotal}</p>
+                <p>{subTotal}$</p>
             </div>
             <input type="button" value="Checkout" />
   

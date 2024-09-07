@@ -6,7 +6,7 @@ import hero_img from '../Assests/hero_image.png'
 const Main = () => {
     return (
         <div className='main-section'>
-            <div className='main-left'>
+            <div className='main-right'>
                 <h2>New Arrivals Only</h2>
                 <div className='header-hand'>
                 <h1>new</h1>
@@ -18,9 +18,6 @@ const Main = () => {
    
             </div>
 
-            <div className='main-right'>
-                <img src={hero_img} alt="" />
-            </div>
 
 
         </div>

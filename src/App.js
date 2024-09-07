@@ -13,13 +13,13 @@ import kids_banner from './Components/Assests/banner_kids.png'
 function App() {
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename='/shop-react'>
      <Navbar></Navbar>
     <Routes>
       <Route path='/' element={<Shop/>}/>
-      <Route path='/men' element={<ShopCategory banner={men_banner} category="men"/>}/>
-      <Route path='/women' element={<ShopCategory banner= {women_banner} category="women"/>}/>
-      <Route path='/kids' element={<ShopCategory banner={kids_banner} category="kid"/>}/>
+      <Route path='/shirts' element={<ShopCategory banner={men_banner} category="shirts"/>}/>
+      <Route path='/jeans' element={<ShopCategory banner= {women_banner} category="jeans"/>}/>
+      <Route path='/shoes' element={<ShopCategory banner={kids_banner} category="shoes"/>}/>
       <Route path='/product/:productId' element={<Product />} />
       <Route path='/cart' element={<Cart/>}/>
       <Route path='/login' element={<LoginSignup/>}/>

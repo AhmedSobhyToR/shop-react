@@ -1,22 +1,30 @@
 .item{
-    width: 300px;
+    width: 310px;
     transition: 0.3s ease;
     border-radius: 0.7rem;
     cursor: pointer;
-    margin: 1rem;
+    margin: 0.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .item:hover{
    transform:  scale(1.05);
-  
 }
 .item img{
     width: 100%;
+    
+   
     border-radius: 0.7rem;
 }
 
 .item-price{
+    font-weight: 600;
+    font-size: 1.1rem;
     display: flex;
-    justify-content: space-evenly;
+    gap: 50px;
 }
 
 .item-price p:nth-child(2){

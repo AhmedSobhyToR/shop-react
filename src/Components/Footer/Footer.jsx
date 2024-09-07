@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Footer.css'
-import logo from '../Assests/logo_big.png'
+import logo from '../Assests/moonnoback.png'
 import igIcon from '../Assests/instagram_icon.png'
 import pinIcon from '../Assests/pintester_icon.png'
 import wspIcon from '../Assests/whatsapp_icon.png'
@@ -13,8 +13,7 @@ const Footer = () => {
         <div className='Footer'>
             <div className='footer-header'>
                 <a href="#"> <img src={logo} alt="" /></a>
-              
-               <a href="#"><h2>Ahmed</h2></a> 
+               <a href="#"><h2>MoonShop</h2></a> 
             </div>
 
                 <ul className='footer-nav'>
@@ -31,7 +30,7 @@ const Footer = () => {
                 <img src={wspIcon} alt="" />
             </div>
             <hr />
-            <p>Copyrights reserved to Ahmed Sobhy</p>
+            <p>This Website is Made & Powered By Ahmed Sobhy</p>
         </div>
     );
 }
