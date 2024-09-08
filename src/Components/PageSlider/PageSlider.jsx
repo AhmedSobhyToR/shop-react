@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {memo} from 'react';
 import './PageSlider.css'
 const PageSlider = ({ pageNumber, onPageChange }) => {
     function handlePageSlider(){
@@ -11,4 +11,4 @@ const PageSlider = ({ pageNumber, onPageChange }) => {
     );
 }
 
-export default PageSlider;
+export default memo(PageSlider);

@@ -20,11 +20,12 @@
 .header-hand{
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 
 .header-hand img{
     width: 70px;
-    margin-right: 10px;
+  
 }
 .main-right button{
     padding: 0.7rem 2.7rem;
@@ -32,7 +33,7 @@
     border: 1px solid grey;
     border-radius: 50px;
     cursor: pointer;
-    transition: 0.8s ease;
+    transition: 0.3s ease;
     color: white;
     font-weight: 600;
     display: flex;
@@ -42,7 +43,7 @@
     gap: 10px;
 }
 .main-right button:hover{
-    background-image:  linear-gradient(to right, rgb(16, 22, 59) 50% , rgba(21, 23, 88, 0.679) );
+    color: grey;
 }
 
 

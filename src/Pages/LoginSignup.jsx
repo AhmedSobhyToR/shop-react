@@ -21,7 +21,7 @@ const LoginSignup = () => {
         </div>
         <div class="login-remember">
           <div>
-            <input type="checkbox" />
+            <input type="checkbox" id="checkbox-confirm"/>
             <span>Remember me</span>
           </div>
           <div>

@@ -1,0 +1,103 @@
+.cart-item-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    flex-direction: row;
+    background-image: linear-gradient(to right, white, rgb(21, 21, 88));
+    padding: 1rem;
+    border-radius: 0.7rem;
+    width: 70%;
+    margin-bottom: 0.5rem;   
+}
+.cart-item-card-left img{
+    width: 250px;
+    border-radius: 0.7rem;
+}
+
+.cart-item-card-right{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card-right-body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card-right-body-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.card-right-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.card-right-header p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.card-quantity{
+    font-size: 1.5rem;
+}
+
+.counter-num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.counter-num p{  
+      font-size: 2rem;
+      margin-bottom: 0.4rem;
+}
+
+.card-right-body-removeicon img{
+    width: 40px;
+    cursor: pointer;
+}
+@media (max-width: 1080px) {
+
+    .cart-item-card{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .cart-item-card{
+        flex-direction: column;
+        padding: 1.5rem 1rem;
+        width: 90%;
+    }
+
+    .cart-item-card-left img{
+        width: 220px;
+        
+    }
+    .counter-num{
+        width: 45px;
+        height: 45px;
+    }
+
+    .cart-item-card-left img{
+        width: 220px;
+        border-radius: 0.7rem;
+    }
+
+}
+

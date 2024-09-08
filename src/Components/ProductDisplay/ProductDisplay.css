@@ -77,15 +77,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 100px;
+    min-width: 80px;
     min-height: 50px;
     font-size: 1.2rem;
     font-weight: 600;
+    border-radius: 0.7rem;
 }
 
-.product-right-size ul li:hover{
-    background-color: rgba(57, 57, 57, 0.362);
+.product-right-size ul li:focus{
+    background-color: rgba(254, 254, 254, 0.362);
+    color: rgba(6, 8, 48, 0.262);
 }
+
+/* .product-right-size ul li:hover{
+    background-color: rgba(57, 57, 57, 0.362);
+} */
 
 .product-container-right button{
 

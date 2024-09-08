@@ -1,11 +1,12 @@
-import React, { useContext, useState } from 'react';
-import { ShopContext } from '../../Context/ShopContext.jsx';
+import React, { useContext, useState, memo } from 'react';
+import { ProductContext } from '../../Context/ProductContext.jsx';
 import Item from '../Item/Item';
 import './ProductRelatedProducts.css';
 import PageSlider from '../PageSlider/PageSlider.jsx';
 
 const ProductRelatedProducts = (props) => {
-    const { all_product } = useContext(ShopContext);
+
+    const { all_product } = useContext(ProductContext);
     const relatedProducts = all_product.filter(elem => elem.category === props.product.category);
     const itemsPerPage = 4;
     const numberOfPages = Math.ceil(relatedProducts.length / itemsPerPage);
@@ -37,4 +38,4 @@ const ProductRelatedProducts = (props) => {
     );
 };
 
-export default ProductRelatedProducts;
+export default memo(ProductRelatedProducts);

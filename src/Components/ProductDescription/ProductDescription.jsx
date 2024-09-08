@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState ,memo} from "react";
 import emptyStarIcon from '../Assests/star_dull_icon.png'
 import fullStarIcon from '../Assests/star_icon.png'
 import './ProductDescription.css'
@@ -49,7 +49,7 @@ const ProductDescription = () => {
 
         {
           show  ===1 && (
-            <div> <h2>Review total number is 150</h2> 
+            <div> <h2>Reviews total number is 150</h2> 
             <div className="Total Reviews">
             <div>
                     <img src={fullStarIcon} alt="" />  
@@ -107,4 +107,4 @@ const ProductDescription = () => {
   );
 };
 
-export default ProductDescription;
+export default memo(ProductDescription);

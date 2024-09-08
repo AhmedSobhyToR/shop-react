@@ -30,7 +30,10 @@ const Footer = () => {
                 <img src={wspIcon} alt="" />
             </div>
             <hr />
-            <p>This Website is Made & Powered By Ahmed Sobhy</p>
+            <div className="footer-end">
+            <p>This Website is Made & Powered By <span>Ahmed Sobhy</span></p>
+            </div>
+          
         </div>
     );
 }
