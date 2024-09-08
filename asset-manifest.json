@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shop-react/static/css/main.180a2d3e.css",
-    "main.js": "/shop-react/static/js/main.5117efff.js",
+    "main.css": "/shop-react/static/css/main.732040d1.css",
+    "main.js": "/shop-react/static/js/main.8bf5ef77.js",
     "static/js/453.d855a71b.chunk.js": "/shop-react/static/js/453.d855a71b.chunk.js",
     "static/media/loginbg.jpg": "/shop-react/static/media/loginbg.a5f3b3a6439eaba07649.jpg",
     "static/media/moonnoback.png": "/shop-react/static/media/moonnoback.805aad89b728218ffbb2.png",
@@ -46,14 +46,15 @@
     "static/media/c11.webp": "/shop-react/static/media/c11.6fa268a0794d7d277117.webp",
     "static/media/c12.webp": "/shop-react/static/media/c12.c408ab0e99def460585e.webp",
     "static/media/c7.webp": "/shop-react/static/media/c7.ce82cb15f2b112b769d5.webp",
+    "static/media/remove.png": "/shop-react/static/media/remove.75637132e15283f97078.png",
     "static/media/c8.webp": "/shop-react/static/media/c8.6db6b5dba41b8acb44fa.webp",
     "index.html": "/shop-react/index.html",
-    "main.180a2d3e.css.map": "/shop-react/static/css/main.180a2d3e.css.map",
-    "main.5117efff.js.map": "/shop-react/static/js/main.5117efff.js.map",
+    "main.732040d1.css.map": "/shop-react/static/css/main.732040d1.css.map",
+    "main.8bf5ef77.js.map": "/shop-react/static/js/main.8bf5ef77.js.map",
     "453.d855a71b.chunk.js.map": "/shop-react/static/js/453.d855a71b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.180a2d3e.css",
-    "static/js/main.5117efff.js"
+    "static/css/main.732040d1.css",
+    "static/js/main.8bf5ef77.js"
   ]
 }
